@@ -78,6 +78,20 @@ body
     transform: scale(0);
     transition-delay: 0s;
 }
+.card .circle .logo2
+{
+    position: relative;
+    width: 145px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    margin-bottom: 10px;
+
+}
+.card:hover .circle .logo2
+{
+    transform: scale(0);
+    transition-delay: 0s;
+}
 .content
 {
     position: relative;
@@ -131,6 +145,22 @@ body
 .card:hover .product_img
 {
     left: 74%;
+    transform: translate(-50%,-50%) scale(1);
+    transition-delay: 0s;
+}
+.card .product_img2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    height: 630px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+.card:hover .product_img2
+{
+    left: 77%;
     transform: translate(-50%,-50%) scale(1);
     transition-delay: 0s;
 }
